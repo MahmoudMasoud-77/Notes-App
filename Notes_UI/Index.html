@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note App</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="notes_sidebar">
+            <input type="text" placeholder="Add Title" id="title">
+            <textarea  placeholder="Add Description" id="description"></textarea>
+            <button id="btnSave">Save</button>
+            <button id="btnDelete" class="btn-delete hidden" >Delete</button>
+
+        </div>
+        <div class="notes_container" id="notes_container">
+            
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/Script.js"></script>
+
+</body>
+</html>
